@@ -1,2 +1,2 @@
 # LogicaDeProgramacao
-Pratica de lógica
+Pratica de exercícios de lógica de programação

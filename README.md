@@ -1,2 +1,2 @@
-# LojaDeProgramacao
+# LogicaDeProgramacao
 Pratica de lógica

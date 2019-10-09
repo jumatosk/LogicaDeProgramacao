@@ -6,17 +6,13 @@ float getArea(int raio);
 int getPerimetro(int raio);
 
 int main(){
-	int raio, perimetro;
-	float area;
-	
+	int raio;
+		
 	printf("Raio: ");
 	scanf("%d", &raio);
 	
-	area = getArea(raio);
-	perimetro = getPerimetro(raio);
-	
-	printf("\nArea: %2.f", area);
-	printf("\nPerimetro: %d", perimetro);
+	printf("\nArea: %2.f", getArea(raio));
+	printf("\nPerimetro: %d", getPerimetro(raio));
 	
 }
 

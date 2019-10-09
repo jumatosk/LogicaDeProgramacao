@@ -5,19 +5,14 @@ int getPerimetro(int base, int altura);
 int getArea(int base, int altura);
 int main(){
 	int base, altura;
-	int area;
-	int perimetro;
 	
 	printf("Base: ");
 	scanf("%d", &base);
 	printf("\nAltura: ");
 	scanf("%d", &altura);
 	
-	perimetro = getPerimetro(base, altura);
-	area = getArea(base, altura);
-	
-	printf("\nPerimetro = %d", perimetro);
-	printf("\nArea = %d", area);
+	printf("\nPerimetro = %d", getPerimetro(base, altura));
+	printf("\nArea = %d", getArea(base, altura));
 };
 
 int getPerimetro(int base, int altura){

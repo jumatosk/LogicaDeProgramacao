@@ -6,17 +6,12 @@ int getPerimetro(int lado);
 
 int main(){
 	int lado;
-	int area;
-	int perimetro;
 	
 	printf("Lado: ");
 	scanf("%d", &lado);	
 	
-	perimetro = getPerimetro(lado);
-	area = getArea(lado);
-	
-	printf("\nArea: %d", area);
-	printf("\nPerimetro: %d", perimetro);	
+	printf("\nArea: %d", getArea(lado));
+	printf("\nPerimetro: %d", getPerimetro(lado));	
 }
 
 int getArea(int lado){
